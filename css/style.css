@@ -1,0 +1,14 @@
+#content {
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+
+.grid-container {
+    display: inline-grid;
+}
+
+.grid-items {
+    width: 150px;
+    height: 150px;
+}
