@@ -1,14 +1,73 @@
+
+* {
+    box-sizing: border-box;
+}
+
 #content {
     margin: 0 auto;
     text-align: center;
-    width: 700px;
+    width: 800px;
+    position: relative;
+}
+
+#game {
+    display: inline-block;
+    width: 800px;
+}
+
+.player1 {
+    display: inherit;
+    vertical-align: middle;
+}
+
+#p1Wins {
+    display: inherit;
+    border: 5px solid blueviolet;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 34px;
 }
 
 .grid-container {
     display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #d65a17;
+    padding: 10px;
+    margin: 20px;
+    width: 500px;
+    height: 500px;
 }
 
 .grid-items {
-    width: 150px;
-    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.player2 {
+    display: inherit;
+    vertical-align: middle;
+}
+
+#p2Wins {
+    display: inherit;
+    border: 5px solid blueviolet;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.naughts {
+    background-image: url("../img/crosses.jpg");
+    background-size: contain;
+}
+
+.crosses {
+    background-image: url("../img/naughts.png");
+    background-size: contain;
+
 }

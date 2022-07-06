@@ -10,21 +10,31 @@
     <script src="js/ui.js"></script>
 </head>
 <body>
+
     <div id="content">
         <h1>Naughts and Crosses!</h1>
-        <button id="player1">P1 ready</button>
-        <button id="player2">P2 ready</button>
-        <div class="grid-container">
-            <div class="grid-items" id="row1-colA">1A</div>
-            <div class="grid-items" id="row1-colB">1B</div>
-            <div class="grid-items" id="row1-colC">1C</div>
-            <div class="grid-items" id="row2-colA">2A</div>
-            <div class="grid-items" id="row2-colB">2B</div>
-            <div class="grid-items" id="row2-colC">2C</div>
-            <div class="grid-items" id="row3-colA">3A</div>
-            <div class="grid-items" id="row3-colB">3B</div>
-            <div class="grid-items" id="row3-colC">3C</div>
-        </div> 
+        <div id="game">
+            <div class="player1">
+                <button id="player1">P1 ready</button>
+                <div id="p1Wins">0</div>
+            </div>
+            
+            <div class="grid-container">
+                <div class="grid-items" id="1A"></div>
+                <div class="grid-items" id="1B"></div>
+                <div class="grid-items" id="1C"></div>
+                <div class="grid-items" id="2A"></div>
+                <div class="grid-items" id="2B"></div>
+                <div class="grid-items" id="2C"></div>
+                <div class="grid-items" id="3A"></div>
+                <div class="grid-items" id="3B"></div>
+                <div class="grid-items" id="3C"></div>
+            </div> 
+            <div class="player2">
+                <div id="p2Wins">0</div>
+                <button id="player2">P2 ready</button>
+            </div>
+        </div>
     </div>
     
     
