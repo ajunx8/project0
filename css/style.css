@@ -58,6 +58,8 @@ body {
 #p1Wins {
     display: inherit;
     border: 5px solid yellow;
+    color: rgb(47, 78, 255);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -92,6 +94,8 @@ body {
     border: 5px solid yellow;
     width: 40px;
     height: 40px;
+    color: rgb(17, 255, 0);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     text-align: center;
     line-height: 34px;
 }
@@ -112,7 +116,32 @@ body {
     animation-duration: 1s;
 }
 
+#p1winphrase {
+    position: relative;
+    bottom: 290px;
+    color: rgb(47, 78, 255);
+    text-shadow: 1px 3px 2px rgb(3, 3, 2);
+    font-size: 30px;
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+
+#p2winphrase {
+    position: relative;
+    bottom: 290px;
+    color: rgb(17, 255, 0);
+    text-shadow: 1px 3px 2px rgb(3, 3, 2);
+    font-size: 30px;
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+
 #draw {
+    position: relative;
+    bottom: 351px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 5px 1px rgb(3, 3, 2);
+    font-size: 40px;
     animation: shakeX;
     animation-duration: 0.4s;
     animation-iteration-count: 9;
