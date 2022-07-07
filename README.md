@@ -23,10 +23,10 @@
 'Naughts and Crosses' was first played using a pencil and paper. To play another round of this game, one must clear the grid of all symbols or redraw a new grid. With this website, players' are able to restart the game instantaneously, place symbols with one click instead of manually inscribing the symbol, and record wins effortlessly and automatically.
 
 ### What is the purpose of this project?
-To allow two players to play 'Naghts and crosses' with efficiency and ease.
+To allow two players to play 'Naughts and Crosses' with efficiency and ease.
 
 ### Why did I undertake this project?
-I chose to do this project to help me understand the general components of a full working professional software engineering project. 
+To learn the general components of a full working professional software engineering project. 
 
 
 ## Technologies Used
@@ -41,6 +41,7 @@ List the ready features here:
 - Reset button to reset score count
 - Popping Title
 - animated background color gradients
+- sound effects
 
 
 ## Screenshots
