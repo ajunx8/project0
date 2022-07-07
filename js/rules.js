@@ -37,6 +37,7 @@ const rules = {
         rules.player1Wins = 0;
         rules.player2Wins = 0;
         render();
+        $('#draw').remove();
     }
 
 }
