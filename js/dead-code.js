@@ -4,41 +4,41 @@
 // columns a to c starting from the LEFT
 // two diagonals only: top left diag is X, top right diag is Y.
 
-const board = {
-    grid: ['1A', '1B', '1C', '2A', '2B', '2C', '3A', '3B', '3C'],
-    winners: [
-        ['1A', '1B', '1C'],
-        ['2A', '2B', '2C'],
-        ['3A', '3B', '3C'],
-        ['1A', '2A', '3A'],
-        ['1B', '2B', '3B'],
-        ['1C', '2C', '3C'],
-        ['1A', '2B', '3C'],
-        ['1C', '2B', '3A']
-    ],
+// const board = {
+//     grid: ['1A', '1B', '1C', '2A', '2B', '2C', '3A', '3B', '3C'],
+//     winners: [
+//         ['1A', '1B', '1C'],
+//         ['2A', '2B', '2C'],
+//         ['3A', '3B', '3C'],
+//         ['1A', '2A', '3A'],
+//         ['1B', '2B', '3B'],
+//         ['1C', '2C', '3C'],
+//         ['1A', '2B', '3C'],
+//         ['1C', '2B', '3A']
+//     ],
 
-    player1choices: [ '2A', '3C', '1A', '2B'],
-    player2choices: [],
+//     player1choices: [ '2A', '3C', '1A', '2B'],
+//     player2choices: [],
 
-};
+// };
 
-const checkWin = function () {
+// const checkWin = function () {
 
-}
+// }
 
 
-const arraysIdentical = function (winners, playerChoices) {
-    for (let i = 0; i < winners.length; i++) {
-        if ( winners[i].includes(playerChoices) ) {
+// const arraysIdentical = function (winners, playerChoices) {
+//     for (let i = 0; i < winners.length; i++) {
+//         if ( winners[i].includes(playerChoices) ) {
             
-        } 
-    };
-};
+//         } 
+//     };
+// };
 
-const checkWin = function () {
-    return console.log('Hello');
+// const checkWin = function () {
+//     return console.log('Hello');
 
-};
+// };
 
 
 
@@ -160,95 +160,95 @@ const checkWin = function () {
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-const winners = [
-    ['1A', '1B', '1C'],
-    ['2A', '2B', '2C'],
-    ['3A', '3B', '3C'],
-    ['1A', '2A', '3A'],
-    ['1B', '2B', '3B'],
-    ['1C', '2C', '3C'],
-    ['1A', '2B', '3C'],
-    ['1C', '2B', '3A']
-];
+// const winners = [
+//     ['1A', '1B', '1C'],
+//     ['2A', '2B', '2C'],
+//     ['3A', '3B', '3C'],
+//     ['1A', '2A', '3A'],
+//     ['1B', '2B', '3B'],
+//     ['1C', '2C', '3C'],
+//     ['1A', '2B', '3C'],
+//     ['1C', '2B', '3A']
+// ];
 
-test1 = ['1A', '1B', '3C', '1C']; //horizontal 1,1,1 win
-test2 = ['3A', '2A', '3B', '1A']; //vertical A,A,A win
-test3 = ['2B', '2C', '1A', '3C']; //diag 1A,2B,3C win
-test4 = ['2A', '2B', '1C', '2C']; //horizontal 2,2,2 win
-test5 = ['1A', '2B', '1C', '2C']; //lose
-test6 = ['2A', '1B', '2C', '3B']; //lose
-test7 = ['1A', '1B', '2B', '2A']; //lose
+// test1 = ['1A', '1B', '3C', '1C']; //horizontal 1,1,1 win
+// test2 = ['3A', '2A', '3B', '1A']; //vertical A,A,A win
+// test3 = ['2B', '2C', '1A', '3C']; //diag 1A,2B,3C win
+// test4 = ['2A', '2B', '1C', '2C']; //horizontal 2,2,2 win
+// test5 = ['1A', '2B', '1C', '2C']; //lose
+// test6 = ['2A', '1B', '2C', '3B']; //lose
+// test7 = ['1A', '1B', '2B', '2A']; //lose
 
 
 
-const checkWin = function (playerChoicesArray) {
+// const checkWin = function (playerChoicesArray) {
 
-    const ar = playerChoicesArray; //shorter name
-    ar.includes('1A')
+//     const ar = playerChoicesArray; //shorter name
+//     ar.includes('1A')
 
-    if (ar.includes('1A') && ar.includes('1B') && ar.includes('1C')) {
-        return true
-    }
-    if (ar.includes('2A') && ar.includes('2B') && ar.includes('2C')) {
-        return true
-    }
-    if (ar.includes('3A') && ar.includes('3B') && ar.includes('3C')) {
-        return true
-    }
-    if (ar.includes('1A') && ar.includes('2A') && ar.includes('3A')) {
-        return true
-    }
-    if (ar.includes('1B') && ar.includes('2B') && ar.includes('3B')) {
-        return true
-    }
-    if (ar.includes('1C') && ar.includes('2C') && ar.includes('3C')) {
-        return true
-    }
+//     if (ar.includes('1A') && ar.includes('1B') && ar.includes('1C')) {
+//         return true
+//     }
+//     if (ar.includes('2A') && ar.includes('2B') && ar.includes('2C')) {
+//         return true
+//     }
+//     if (ar.includes('3A') && ar.includes('3B') && ar.includes('3C')) {
+//         return true
+//     }
+//     if (ar.includes('1A') && ar.includes('2A') && ar.includes('3A')) {
+//         return true
+//     }
+//     if (ar.includes('1B') && ar.includes('2B') && ar.includes('3B')) {
+//         return true
+//     }
+//     if (ar.includes('1C') && ar.includes('2C') && ar.includes('3C')) {
+//         return true
+//     }
 
-    if (ar.includes('1A') && ar.includes('2B') && ar.includes('3C')) {
-        return true
-    }
-    if (ar.includes('3A') && ar.includes('2B') && ar.includes('1C')) {
-        return true
-    }
+//     if (ar.includes('1A') && ar.includes('2B') && ar.includes('3C')) {
+//         return true
+//     }
+//     if (ar.includes('3A') && ar.includes('2B') && ar.includes('1C')) {
+//         return true
+//     }
 
-    return false
+//     return false
     
-}
+// }
 
-console.log(checkWin(test1));
-console.log(checkWin(test2));
-console.log(checkWin(test3));
-console.log(checkWin(test4));
-console.log(checkWin(test5));
-console.log(checkWin(test6));
-console.log(checkWin(test7));
+// console.log(checkWin(test1));
+// console.log(checkWin(test2));
+// console.log(checkWin(test3));
+// console.log(checkWin(test4));
+// console.log(checkWin(test5));
+// console.log(checkWin(test6));
+// console.log(checkWin(test7));
 // SORT with number and check against winners
 // SORT with LETTERs and check against winners
 
 // if ID 1A, 2B, 3C contains X then win. END.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-const checkWin = function (playerChoicesArray) {
+// const checkWin = function (playerChoicesArray) {
 
 
-    for (i = 0; i < winners.length; i++) {
-        const winningCombo = winners[i];
+//     for (i = 0; i < winners.length; i++) {
+//         const winningCombo = winners[i];
 
-        let winnerFound = true;
+//         let winnerFound = true;
 
-        for (i = 0; i < winningCombo.length; i++) {
-            if ( !playerChoicesArray.includes(winningCombo[i]) ) {
-                winnerFound = false;
-                break
-            }
-        }
-        if ( winnerFound ) {
-            return true;
-        }
-    }
+//         for (i = 0; i < winningCombo.length; i++) {
+//             if ( !playerChoicesArray.includes(winningCombo[i]) ) {
+//                 winnerFound = false;
+//                 break
+//             }
+//         }
+//         if ( winnerFound ) {
+//             return true;
+//         }
+//     }
 
 
-};
+// };
 
 
 // continue skips 1 iteration
@@ -287,45 +287,45 @@ const checkWin = function (playerChoicesArray) {
 // console.log(checkElementsinArray([1,2,3], [1,2]));
 
 ///////////////////////////////////////////////OLD WORK////////////////////////////////////////
-const winners = ['1', '2', '3']; //, ['4', '5', '6'], ['7', '8', '9'] ];
-const b = ['1', '2', '3'];
+// const winners = ['1', '2', '3']; //, ['4', '5', '6'], ['7', '8', '9'] ];
+// const b = ['1', '2', '3'];
 
-const c = ['a', 'b', 'c'];
+// const c = ['a', 'b', 'c'];
 
-const playerChoices = ['1', '4', '2', '8', '3']
+// const playerChoices = ['1', '4', '2', '8', '3']
 
-const arraysIdentical = function (winners, playerChoices) {
-    for (let i = 0; i < winners.length; i++) {
+// const arraysIdentical = function (winners, playerChoices) {
+//     for (let i = 0; i < winners.length; i++) {
 
-        if ( playerChoices.includes(winners[i]) ) {
+//         if ( playerChoices.includes(winners[i]) ) {
             
-        };
+//         };
     
 
-    };
+//     };
     
-};
+// };
 
-const isSubset = (array1, array2) => array2.every(element => array1.includes(element));
+// const isSubset = (array1, array2) => array2.every(element => array1.includes(element));
 
-console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 7, 6])); // true
-console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 8, 7])); // false
+// console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 7, 6])); // true
+// console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 8, 7])); // false
 
 /////////////////////////////////////////////////////////////////////////////////////
-const array1 = ['1', '2', '3'];
-const array2 = []
+// const array1 = ['1', '2', '3'];
+// const array2 = []
 
 
-// element => array1.includes(element);
-const innerFunction = function (element) {
-    return array1.includes(element);
-}
+// // element => array1.includes(element);
+// const innerFunction = function (element) {
+//     return array1.includes(element);
+// }
 
-// (array1, array2) => array2.every( ... );
+// // (array1, array2) => array2.every( ... );
 
-const outerFunction = function (array1, array2) {
-    return array2.every( innerFunction(element) );
-}
+// const outerFunction = function (array1, array2) {
+//     return array2.every( innerFunction(element) );
+// }
 
 // test1 = ['1A', '1B', '3C', '1C']; //horizontal 1,1,1 win
 // test2 = ['3A', '2A', '3B', '1A']; //vertical A,A,A win

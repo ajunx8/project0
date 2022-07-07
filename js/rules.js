@@ -30,8 +30,13 @@ const rules = {
         $('.grid-items').removeClass('crosses');
         $('.grid-items').removeClass('naughts');
         $('.grid-items').off().on('click', clickHandler)
+    },
+
+    resetAll: function () {
+        rules.reset();
+        rules.player1Wins = 0;
+        rules.player2Wins = 0;
+        render();
     }
-    
+
 }
-
-

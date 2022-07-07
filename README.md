@@ -34,11 +34,11 @@ I chose to do this project to help me understand the general components of a ful
 - W3. CSS 4.15
 - ES6 (ECMAScript 2018)
 - jQuery v3.6.0
-- [Animate.css](https://animate.style/)
 
 ## Features
 List the ready features here:
 - Score tracker
+- Reset button to reset score count
 - Popping Title
 - animated background color gradients
 
@@ -65,19 +65,14 @@ Room for improvement:
 
 To do:
 - draw line to show a win
-- allow players to choice of symbol
+- allow players a choice of symbol
 
 
 ## Acknowledgements
-- This project was inspired by... General Assembly
-- Many thanks to... Loden from GA as TA for SEI54
+- This project was inspired by: General Assembly
+- Many thanks to: Loden from GA as TA for SEI54
+- Animations from [Animate.css](https://animate.style/)
+- Sound effects from [freesound](https://freesound.org)
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+adrian.greksa@gmail.com

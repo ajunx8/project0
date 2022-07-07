@@ -16,7 +16,7 @@
         <h1 id="title">Naughts & Crosses!</h1>
         <div id="game">
             <div class="player1">
-                <button id="player1">P1 ready</button>
+                <p id="player1">P1<br>CROSSES<p>
                 <div id="p1Wins">0</div>
             </div>
             
@@ -32,10 +32,20 @@
                 <div class="grid-items" id="3C"></div>
             </div> 
             <div class="player2">
+                <p id="player2">P2<br>NAUGHTS</p>
                 <div id="p2Wins">0</div>
-                <button id="player2">P2 ready</button>
             </div>
         </div>
+        <button id="reset-all">RESET</button>
+        <audio id="draw-sound">
+            <source src="SFX/explode.wav" type="audio/mpeg">
+        </audio>
+        <audio id="win1">
+            <source src="SFX/win1.wav" type="audio/mpeg">
+        </audio>
+        <audio id="win2">
+            <source src="SFX/win2.wav" type="audio/mpeg">
+        </audio>
     </div>
     
     
