@@ -18,6 +18,7 @@ $(document).ready(function () {
 });
 
 const clickHandler = function () {
+
     $('#draw, #p1winphrase, #p2winphrase').remove();
     if( rules.turn % 2 === 0 ) {
         rules.player1Choices.push( $(this).attr('id') );
@@ -28,7 +29,6 @@ const clickHandler = function () {
     }
 
     if ( rules.checkWin(rules.player1Choices) ) {
-        console.log('p1 wins:', rules.player1Wins);
         rules.player1Wins += 1;
         render();
         $('audio#win1')[0].play()
@@ -47,10 +47,13 @@ const clickHandler = function () {
         return
     }
 
+    rules.turn += 1;  //// TURNS INCREASE BY 1 HERE
+
     if ( rules.turn === 9 ) { 
         $("<h1 id='draw'>It's a Draw!</h1>").insertAfter('#reset-all');
         $('audio#draw-sound')[0].play()
         rules.reset();  
     }
-    rules.turn += 1;  //// TURNS INCREASE BY 1 HERE
 };
+
+

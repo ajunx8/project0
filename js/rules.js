@@ -27,9 +27,7 @@ const rules = {
         this.player1Choices = [];
         this.player2Choices = [];
         this.turn = 0;
-        $('.grid-items').removeClass('crosses');
-        $('.grid-items').removeClass('naughts');
-        $('.grid-items').off().on('click', clickHandler)
+        $('.grid-items').removeClass('crosses naughts').off().on('click', clickHandler)
     },
 
     resetAll: function () {
