@@ -57,16 +57,13 @@ Project is: _in progress_
 ## Room for Improvement
 
 Room for improvement:
+- draw line to show a win
 - allow players to customize their tokens (X, O, name, picture)
-- add entrance animations for X and O
 - use local storage to persist data locally to allow games to continue after page refresh or loss of internet connectivity.
 - support custom board sizes. (4x4, 5x5, 6x6)
 - support networked multiplayer
-- create AI opponent.
-
-To do:
-- draw line to show a win
-- allow players a choice of symbol
+- create AI opponent
+- allow players to type in co-ordinates
 
 
 ## Acknowledgements

@@ -5,12 +5,12 @@
 }
 
 body {
-        background: linear-gradient(270deg, #e7a511, #a9f284, #2bd882, #1ec2e2, #26aee7, #0f4fe0, #2006c7, #8428d4, #c533d8, #c42172, #ff314f, #ff0000, #e0e923);
-        background-size: 2600% 2600%;
+    background: linear-gradient(270deg, #e7a511, #a9f284, #2bd882, #1ec2e2, #26aee7, #0f4fe0, #2006c7, #8428d4, #c533d8, #c42172, #ff314f, #ff0000, #e0e923);
+    background-size: 2600% 2600%;
 
-        -webkit-animation: AnimationName 39s ease infinite;
-        -moz-animation: AnimationName 39s ease infinite;
-        animation: AnimationName 39s ease infinite;
+    -webkit-animation: AnimationName 39s ease infinite;
+    -moz-animation: AnimationName 39s ease infinite;
+    animation: AnimationName 39s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
